@@ -1,0 +1,261 @@
+body {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+    background-color: #f5f5f5;
+}
+
+#question-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-right: 7px;
+    border: 1px solid darkgray
+}
+
+#sideContainer {
+    display: flex;
+    flex-direction: column;
+    height: 64%;
+    width: 30%;
+}
+
+#snakegamecanvas {
+    background: linear-gradient(to right, rgb(100, 16, 83), rgb(60, 16, 83));
+    border: 1px solid darkgray;
+    width: 98%;
+    height: 100%;
+}
+
+#questionsHeader {
+    color: azure;
+    background: #270b35;
+    font-family: arial;
+    font-size: 16px;
+}
+
+#question {
+    color: white;
+    font-family: arial;
+    padding: 5px;
+}
+#scorePanel > div >span:first-child{
+    min-width: 154px;
+    display: inline-block;
+}
+#scorePanel {
+    color: #87dfca;
+    font-family: arial;
+    margin: auto;
+    text-align: left;
+    font-size:0.9rem;
+    margin-bottom: 15px;
+}
+
+#gameContainer {
+    padding: 10px;
+    width: 90%;
+    height: 93%;
+}
+
+#playerName {
+    color: black;
+    background: lavender;
+    border-radius: 6px;
+    font-family: arial;
+    text-transform: capitalize;
+}
+
+#playerName1 {
+    color: black;
+    background: lavender;
+    border-radius: 6px;
+    font-family: arial;
+    text-transform: capitalize;
+}
+
+#gameHeader {
+    color: wheat;
+    margin-top: 10px;
+    padding-left: 15px;
+    font-family: arial;
+    text-transform: capitalize;
+    background: black;
+    font-size: 1.3rem;
+}
+
+#gameBtn {
+    width: 82px;
+    background: #762a58;
+    margin-top: 10px;
+    font-family: arial;
+    color: floralwhite;
+}
+
+#help {
+    color: #fff;
+    background-color: #feb22a;
+    width: 12px;
+    height: 12px;
+    display: inline-block;
+    border-radius: 100%;
+    font-size: 10px;
+    text-align: center;
+    text-decoration: none;
+    -webkit-box-shadow: inset -1px -1px 1px 0px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: inset -1px -1px 1px 0px rgba(0, 0, 0, 0.25);
+    box-shadow: inset -1px -1px 1px 0px rgba(0, 0, 0, 0.25);
+}
+
+#question-container {
+    display: block;
+    padding-top: 5px;
+    padding-left: 5px;
+    text-align: left;
+    height: auto;
+    color: #333;
+    background: rgb(57 21 75);
+}
+
+#options {
+    text-align: left;
+    color: white;
+    padding-top: 5px;
+    /* background: #346969; */
+    padding-left: 5px;
+    display: block;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: table-cell;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.square {
+    background-color: chartreuse;
+    width: 12px;
+    height: 12px;
+}
+
+.circle {
+    background-color: gold;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+}
+
+#options {
+    display: inline-block;
+}
+
+.optionwrapper {
+    display: flex;
+    column-gap: 9px;
+    padding: 10px;
+}
+
+.diamond {
+    background-color: azure;
+    width: 12px;
+    height: 12px;
+    transform: rotate(45deg);
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-bottom: 15px solid orange;
+}
+
+#gamePage {
+    display: flex;
+    height: 96%;
+    background: black;
+    border: 1px solid black;
+}
+
+#game-over-screen {
+    height:100%;
+    width:100%;
+    background:#2f1a37;
+    display: flex;
+    color:azure;
+}
+
+#final-score {
+    margin: auto;
+        /* display: flex; */
+        height: 100px;
+        border-radius: 20px;
+        width: 200px;
+        border: 1px solid slategrey;
+}
+
+#game-screen {
+    height: 100%;
+    width: 100%;
+    background: #2f1a37;
+}
+
+#nameEntry {
+    vertical-align: middle;
+    width: 198px;
+    padding: 18px;
+    /* margin: auto; */
+    left: 40%;
+    top: 30%;
+    position: absolute;
+    height: 100px;
+    text-align: center;
+    flex-direction: column;
+}
+
+#generalInstructions {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    text-align: left;
+    color: white;
+    margin: 20px;
+}
+html{
+    background-color: #2f1a37;
+}
+#copyrightInstruction {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    color: white;
+    font-size: 12px;
+    margin: 20px;
+}
+
+#subjectDetails {
+    color: white;
+}
+
+#topRightImage {
+    position: absolute;
+    top: 10px;
+    right: 0px;
+    width: 150px;
+    /* Adjust width as needed */
+    height: auto;
+    /* Maintains aspect ratio */
+    margin: 10px;
+    /* Add some margin if needed */
+} 
+#gameBody {
+    height: 96%;
+    width: 100%;
+    background: black;
+}
